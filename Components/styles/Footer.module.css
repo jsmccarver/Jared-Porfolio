@@ -1,0 +1,52 @@
+.bluebar {
+  height: 15px;
+  background-color: #432b8cff;
+}
+
+.footer {
+  display: grid;
+  width: 100%;
+  background-color: #182025;
+  height: 250px !important;
+  align-items: baseline !important;
+  justify-content: center;
+  grid-template-columns: 1fr !important;
+  gap: 0px 0px !important;
+  margin: 0px !important;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+  margin-top: 15px;
+  height: 100%;
+  width: 100%;
+}
+.logos a {
+  padding: 0px 20px 0px 20px !important;
+}
+.link-list {
+  margin: 0px !important;
+  padding: 0px 0px 0px 0px !important;
+  align-self: start;
+}
+
+.link-list a {
+  color: #f0fff0;
+  margin: 0px 15px !important;
+}
+.links li {
+  display: inline-block;
+}
+.links {
+  text-align: center !important;
+}
+.copyright {
+  text-align: center;
+  align-self: end !important;
+}
+.copyright p {
+  color: #f0fff0;
+}

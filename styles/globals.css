@@ -1,16 +1,71 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+:root {
+  --charcoal: #2f3e46ff;
+  --spanish-violet: #432b8cff;
+  --tumbleweed: #e0a890ff;
+  --medium-violet-red: #ce1483ff;
+  --turquoise-green: #87cbacff;
+  --aquamarine: #90ffdcff;
+  --non-photo-blue: #8de4ffff;
 }
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-size: 3.5rem;
+  color: #432b8c;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 5.5rem;
+  line-height: 1.2;
+}
+h3 {
+  color: #432b8c;
+}
+li {
+  color: #432b8c;
+}
+p {
+  margin: 10px 0;
+}
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 750px) {
+  p {
+    font-size: 1rem !important;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+  h3 {
+    font-size: 1rem !important;
+    width: 100%;
+  }
 }

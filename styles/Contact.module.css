@@ -1,0 +1,35 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 2fr !important;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.contactform {
+  display: grid;
+  grid-template-columns: 1fr !important;
+  gap: 10px !important;
+  padding: 10px 30px !important;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.contact-boxes {
+}
+.wordbox {
+  width: 100%;
+  padding: 10px 0px;
+  margin: 0px !important;
+  background-color: #008ccf;
+}
+
+.wordbox h3 {
+  width: 100%;
+  text-align: center;
+}
+.formbox {
+  background-color: #f5f6f7;
+}
