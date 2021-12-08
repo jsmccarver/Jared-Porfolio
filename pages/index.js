@@ -30,7 +30,7 @@ export default function Home() {
             <div>
               <h1>My Projects</h1>
             </div>
-            <div className={Styles.works}>
+            <div className={`${Styles.works} grid`}>
               <div className={Styles.description}>
                 <h2>Allyson Freeman</h2>
                 <a href="https://allysonfreeman.com/"> allysonfreeman.com</a>
