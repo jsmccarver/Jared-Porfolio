@@ -5,12 +5,13 @@ import { useRouter } from "next/router";
 
 const Layout = ({ children }) => {
   const router = useRouter();
-  const showHeader = router.pathname === "/projects/weather-app" ? false : true;
+  const showHeader =
+    router.pathname.slice(0, 10) === "/projects/" ? false : true;
   return (
     <Fragment>
       {showHeader && <Header />}
       {children}
-      <Footer />
+      {showHeader && <Footer />}
     </Fragment>
   );
 };
