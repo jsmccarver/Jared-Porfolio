@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Styles from "../styles/Home.module.css";
+import ProjectList from "../Components/ProjectList";
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -26,29 +28,7 @@ export default function Home() {
               </h3>
             </div>
           </div>
-          <div className={Styles.projects}>
-            <div>
-              <h1>My Projects</h1>
-            </div>
-            <div className={`${Styles.works} grid`}>
-              <div className={Styles.description}>
-                <h2>Allyson Freeman</h2>
-                <a href="https://allysonfreeman.com/"> allysonfreeman.com</a>
-                <p>
-                  I was the developer for Allyson&apos;s personal website. She
-                  is a graduate of NC State with a Bachelors in Geology. She is
-                  currently pursuing a certificate in Geospatial Information
-                  Systems from NC State and does research with The Machado Lab.
-                  You can find out more through the link. The project is written
-                  in React JS.
-                </p>
-              </div>
-              <div className={Styles["example-images"]}>
-                <img src={"./Allyson_site.jpg"} />
-                <img src={"./Allyson_site_mobile.jpg"} />
-              </div>
-            </div>
-          </div>
+          <ProjectList/>
         </div>
       </main>
     </>
