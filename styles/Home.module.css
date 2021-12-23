@@ -4,7 +4,7 @@
 .Home > div {
   border-bottom: 1px #e6e6e6 solid;
   margin: 0px;
-  padding: 30px 35px;
+  padding: 30px 0px;
 }
 .code-image {
   justify-content: flex-end !important;
@@ -24,7 +24,7 @@
   border-bottom: 1px #e6e6e6 solid;
 }
 .Intro {
-  padding: 190px 0px !important;
+  padding: 140px 0px !important;
   grid-template-columns: 1fr 8fr !important;
   margin: 0 auto !important;
   width: 47% !important;
@@ -57,95 +57,10 @@
   color: black;
   font-weight: 600;
 }
-.projects {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.works {
-  margin: 0px !important;
-  padding: 0px !important;
-  border-bottom: 0px black solid !important;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-.Project {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 40px;
-}
-.projects h1 {
-  grid-column: span 2;
-  text-align: center;
-  margin: 0px !important;
-  padding-bottom: 30px !important;
-}
-.description {
-  margin: 0px !important;
-  border-bottom: 0px solid #432b8cff !important;
-  flex-direction: column;
-  align-items: flex-start !important;
-}
-.description p {
-  padding-bottom: 10px;
-  border-bottom: 2px solid #432b8cff !important;
-}
-.description p {
-  font-size: 16pt;
-}
-.description h2 {
-  font-size: 2.5rem;
-}
-.example-images {
-  padding: 15px !important;
-  margin: 0px !important;
-  background: #f7f7f7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-.example-images img {
-  margin: 0px 15px;
-  padding: 0px;
-  border: rgb(121, 121, 121) 1px solid;
-}
-.example-images img:first-of-type {
-  width: 42vw;
-}
-.example-images img:nth-child(2) {
-  width: 23vw;
-}
-.works div:nth-of-type(even)
-{
-  grid-template-columns: 1fr 1fr !important;
-  color: blue;
-}
 
-@media screen and (max-width: 1385px) {
-  .example-images img:nth-child(2) {
-    display: none;
-  }
-}
+
 @media screen and (max-width: 1050px) {
-  .example-images img:nth-child(1) {
-    display: none;
-  }
-  .example-images img:nth-child(2) {
-    display: block;
-    height: 100%;
-    width: 100%;
-  }
   .Introduction h1,
   .Introduction h3 {
     width: 70%;
@@ -185,29 +100,5 @@
     align-items: center !important;
     justify-content: center !important;
     width: 150px;
-  }
-  .works h1 {
-    font-size: 2.25rem;
-  }
-  .projects h1 {
-    font-size: 2.75rem;
-  }
-}
-@media screen and (max-width: 750px) {
-  .example-images {
-    display: none !important;
-  }
-  .description {
-    grid-column: span 2;
-    height: 100%;
-  }
-
-  .description h2 {
-    font-size: 2rem !important;
-  }
-
-  .Introduction {
-    margin-top: 0px !important;
-    padding-top: 0px !important ;
   }
 }

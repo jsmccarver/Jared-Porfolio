@@ -1,4 +1,4 @@
-import Styles from "../styles/Home.module.css";
+import Styles from "./styles/ProjectList.module.css";
 
 const ProjectList = () => {
   const Projects = [
@@ -11,46 +11,67 @@ const ProjectList = () => {
         { name: "Unsplash API" },
         { name: "Weather API" },
       ],
+      Color: "#0f182b ",
+      TextColor: "#808782",
       Description:
         "I was the developer for Allyson&apos;s personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
     },
     {
-      Name: "Weather App",
-      Link: "https://jmccarver.com/projects/weather-app",
+      Name: "Allyson Freeman",
+      Link: "https://allysonfreeman.com/",
       Programs: [
         { name: "React" },
         { name: "next" },
         { name: "Unsplash API" },
         { name: "Weather API" },
       ],
+      Color: "#eddcd2",
+      TextColor: "#7E7F9A",
       Description:
-        "This is a small weather app that I developed. It will update the ",
+        "I was the developer for Allyson&apos;s personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
+    },
+    {
+      Name: "Weather App",
+      Link: "https://jmccarver.com/proje",
+      Programs: [
+        { name: "React" },
+        { name: "next" },
+        { name: "Unsplash API" },
+        { name: "Weather API" },
+      ],
+      Color: "#edf2fb",
+      TextColor: "#89608E",
+      Description:
+        "I was the developer for Allyson&apos;s personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
     },
   ];
   return (
     <div className={Styles.projects}>
       <h1>My Projects</h1>
-
-      <div className={Styles.works}>
-        {Projects.map((Project) => (
-          <div className={Styles.Project}>
+      {Projects.map((Project) => (
+        <section
+          className={Styles.Project}
+          style={{ backgroundColor: Project.Color }}
+        >
+          <div className={Styles.ProjectWrapper}>
             <div className={Styles.description}>
-              <h2>{Project.Name}</h2>
-              <a href={Project.Link}>{Project.Link}</a>
-              <ul className="grid">
+              <h2 style={{ color: Project.TextColor }}>{Project.Name}</h2>
+              <a href={Project.Link} style={{ color: Project.TextColor }}>
+                {Project.Link}
+              </a>
+              <ul className={Styles.Programs}>
                 {Project.Programs.map((Program) => (
-                  <li>{Program.name}</li>
+                  <li style={{ color: Project.TextColor }}> {Program.name}</li>
                 ))}
               </ul>
-              <p>{Project.Description}</p>
+              <p style={{ color: Project.TextColor }}>{Project.Description}</p>
             </div>
             <div className={Styles["example-images"]}>
               <img src={"./Allyson_site.jpg"} />
-              <img src={"./Allyson_site_mobile.jpg"} />
             </div>
           </div>
-        ))}
-      </div>
+        </section>
+      ))}
     </div>
   );
 };
