@@ -10,6 +10,10 @@ function Header() {
         <nav>
           <ul>
             <li>
+            <Link href="./">
+                <h3>Home</h3>
+              </Link>
+              </li><li>
               <Link href="./about">
                 <h3>About</h3>
               </Link>
