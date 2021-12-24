@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Styles from "../Styles/404.module.css";
+import Styles from "../styles/404.module.css";
 export default function Custom404() {
   return (
     <>

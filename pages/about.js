@@ -1,4 +1,4 @@
-import Styles from "../Styles/about.module.css"
+import Styles from "../styles/about.module.css"
 function about() {
   return (
     <div className={Styles.Wrapper}>

@@ -1,4 +1,4 @@
-import Styles from "../Styles/project.module.css"
+import Styles from "../styles/project.module.css"
 
 const Projects = () => {
   return <div className={Styles.Wrapper}>Project</div>;
