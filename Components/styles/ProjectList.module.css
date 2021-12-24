@@ -7,7 +7,7 @@
   align-items: center;
 }
 .Project {
-  padding: 35px 15vw !important;
+  padding: 65px 15vw !important;
 }
 .ProjectWrapper {
   grid-template-columns: 1fr 2fr;
@@ -23,13 +23,14 @@
 }
 .Programs {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 .Programs li {
-  margin: 0px 10px 0px 0px;
-  padding: 0px 5px;
-  border: 1px white solid;
-  border-radius: 5px;
+  margin: 5px 10px 5px 0px;
+  padding: 0px 6px;
+  border: 1px black solid;
+  border-radius: 7px;
 }
 .projects h1 {
   grid-column: span 2;
@@ -69,8 +70,11 @@
   .Project {
     padding: 35px 2.5vw !important;
   }
+  .ProjectWrapper {
+    gap: 40px;
+  }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .ProjectWrapper {
     grid-template-columns: 1fr !important;
     gap: 10px;

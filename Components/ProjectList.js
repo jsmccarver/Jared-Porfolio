@@ -11,8 +11,8 @@ const ProjectList = () => {
         { name: "Unsplash API" },
         { name: "Weather API" },
       ],
-      Color: "#0f182b ",
-      TextColor: "#808782",
+      Color: "#82D4BB",
+      TextColor: "white",
       Description:
         "I was the developer for Allyson&apos;s personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
     },
@@ -57,7 +57,7 @@ const ProjectList = () => {
             <div className={Styles.description}>
               <h2 style={{ color: Project.TextColor }}>{Project.Name}</h2>
               <a href={Project.Link} style={{ color: Project.TextColor }}>
-                {Project.Link}
+                Live Link
               </a>
               <ul className={Styles.Programs}>
                 {Project.Programs.map((Program) => (

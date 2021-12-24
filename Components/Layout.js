@@ -9,9 +9,16 @@ const Layout = ({ children }) => {
     router.pathname.slice(0, 10) === "/projects/" ? false : true;
   return (
     <Fragment>
+      <div className="wrapper">
       {showHeader && <Header />}
-      {children}
+      <div
+        className={"wrapper-content"}
+      >
+        {children}
+      </div>
+
       {showHeader && <Footer />}
+      </div>
     </Fragment>
   );
 };
