@@ -1,7 +1,8 @@
 import Styles from "../styles/Contact.module.css";
+import Head from "next/head";
 function contact() {
   return (
-    <div className={Styles.container}>
+    <div className={Styles.Wrapper}>
       <div className={Styles.contact}>
         <div>
           <h3>Get In Touch!</h3>

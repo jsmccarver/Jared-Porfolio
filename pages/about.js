@@ -1,6 +1,7 @@
+import Styles from "../Styles/about.module.css"
 function about() {
   return (
-    <div className={"my-bio"}>
+    <div className={Styles.Wrapper}>
       <p>
         I am an aspiring Software Engineer with 2 years of experience with React Js
         and web development. I graduated from North Carolina State

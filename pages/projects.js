@@ -1,4 +1,6 @@
+import Styles from "../Styles/project.module.css"
+
 const Projects = () => {
-  return <div>Project</div>;
+  return <div className={Styles.Wrapper}>Project</div>;
 };
 export default Projects;

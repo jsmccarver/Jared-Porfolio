@@ -10,14 +10,11 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <div className="wrapper">
-      {showHeader && <Header />}
-      <div
-        className={"wrapper-content"}
-      >
-        {children}
-      </div>
+        {showHeader && <Header />}
 
-      {showHeader && <Footer />}
+        {children}
+
+        {showHeader && <Footer />}
       </div>
     </Fragment>
   );
