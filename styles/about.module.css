@@ -27,7 +27,7 @@
 .SkillList{
     display: grid;
     flex-wrap: wrap;
-    grid-template-columns: repeat(auto-fill,1fr 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
 }
 .SkillList h3{
@@ -57,5 +57,16 @@
   .Wrapper h1:first-of-type {
 
     font-size: 2.5rem;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .SkillList{
+    grid-template-columns: repeat(auto-fill, 400px) !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .SkillList{
+    grid-template-columns: repeat(auto-fill, 250px) !important;
   }
 }
