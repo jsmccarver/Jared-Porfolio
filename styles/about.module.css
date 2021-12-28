@@ -1,8 +1,34 @@
-.Wrapper{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30%;
+  flex: 1;
+}
+.Wrapper h1:first-of-type {
+  padding-bottom: 20px;
+  padding-top: 80px;
+}
+.HText {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 2.0rem;
+  
+}
+.Wrapper p {
+  padding-bottom: 10px;
+}
+.SkillList{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.SkillList h3{
+    padding-bottom: 10px;
+}
+.Skills{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }

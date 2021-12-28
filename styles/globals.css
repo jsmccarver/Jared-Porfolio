@@ -32,6 +32,9 @@ a {
   color: #333;
 
 }
+a:hover{
+  cursor: pointer;
+}
 
 h1,
 h2 {

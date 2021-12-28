@@ -5,28 +5,38 @@ function Header() {
     <div className={Styles.navbar}>
       <div className={Styles["Header-Container"]}>
         <Link href="./">
-          <h1>Jared McCarver</h1>
+          <a>
+            <h1>Jared McCarver</h1>
+          </a>
         </Link>
         <nav>
           <ul>
             <li>
               <Link href="./">
-                <h3>Home</h3>
+                <a>
+                  <h3>Home</h3>
+                </a>
               </Link>
             </li>
             <li>
               <Link href="./about">
-                <h3>About</h3>
+                <a>
+                  <h3>About</h3>
+                </a>
               </Link>
             </li>
             <li>
               <Link href="./projects">
-                <h3>projects</h3>
+                <a>
+                  <h3>projects</h3>
+                </a>
               </Link>
             </li>
             <li>
               <Link href="./contact">
-                <h3>contact</h3>
+                <a>
+                  <h3>contact</h3>
+                </a>
               </Link>
             </li>
           </ul>

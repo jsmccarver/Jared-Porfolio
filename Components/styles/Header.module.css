@@ -36,11 +36,12 @@
 }
 .Header-Container li:hover h3 {
   border-bottom: rgb(17, 20, 218) 3px solid;
-  animation: dude 0.35s 1 ease;
+  animation: dude 0.35s 1 ease-in-out;
 }
+
 @keyframes dude {
   0% {
-    width: 0;
+    width: 0%;
   }
   100% {
     width: 100%;
