@@ -1,9 +1,7 @@
 .Wrapper {
-  display: flex;
-  flex-direction: column;
   padding: 0px 25vw;
   flex: 1;
-  justify-content: center;
+ 
 }
 .Wrapper h1:first-of-type {
   padding-bottom: 20px;
@@ -51,22 +49,20 @@
   .Wrapper {
     padding: 0px 10vw;
   }
-  .Wrapper h1:first-of-type{
-    text-align: center;
-  }
   .Wrapper h1:first-of-type {
-
+    text-align: center;
     font-size: 2.5rem;
   }
 
 }
-@media screen and (max-width: 600px) {
-  .SkillList{
-    grid-template-columns: repeat(auto-fill, 400px) !important;
+@media screen and (max-width: 900px) {
+  .Wrapper h1:first-of-type{
+    padding-top: 15px;
   }
+  .SkillList{
+    grid-template-columns: 1fr;
+  }
+  .Skills{
+    grid-template-columns:repeat(auto-fit, 100px);
 }
-@media screen and (max-width: 400px) {
-  .SkillList{
-    grid-template-columns: repeat(auto-fill, 250px) !important;
-  }
 }
