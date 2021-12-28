@@ -28,6 +28,9 @@ function about() {
           with a Python Tiling API and Java Rest Service. We then Dockerized
           each section and got it running end to end in Kubernetes.
         </p>
+        <p>
+         I am currently most interested in learning Django and how to build a machine learning API that I will be able to integrate with the coating automation software for my current employer.
+        </p>
         <h1 className={Styles.HText}>Programming Skills</h1>
         <div className={Styles.SkillList}>
           <div>
@@ -37,7 +40,7 @@ function about() {
               <li>Next JS</li>
               <li>HTML5</li>
               <li>CSS</li>
-              <li>Javascript</li>
+              <li>JS</li>
               <li>Python</li>
             </ul>
           </div>
@@ -75,7 +78,6 @@ function about() {
             <ul className={Styles.Skills}>
               <li>Docker</li>
               <li>Kubernetes</li>
-              <li>Ansible</li>
             </ul>
           </div>
         </div>
