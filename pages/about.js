@@ -13,7 +13,7 @@ function about() {
         <h1>About Me</h1>
         <p>
           I am an aspiring Software Engineer with 2 years of experience with
-          React Js and web development. I currently work at Stewart Engineer
+          React Js and web development. I currently work at Stewart Engineers
           where I am designing a web app in Next JS that will be used to model
           and automate glass coatings. I am managing the project and am helping
           teach an intern React JS, HTML, CSS, Python and Git so they may help
@@ -57,6 +57,23 @@ function about() {
               <li>PHP</li>
               <li>Rust</li>
               <li></li>
+            </ul>
+          </div>
+        </div>
+        <h1 className={Styles.HText}>Development Skills</h1>
+        <div className={`${Styles.SkillList} ${Styles.Development}`}>
+          <div>
+            <h3>Proficient</h3>
+            <ul className={Styles.Skills}>
+              <li>Git</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Intermediate</h3>
+            <ul className={Styles.Skills}>
+              <li>Docker</li>
+              <li>Kubernetes</li>
             </ul>
           </div>
         </div>

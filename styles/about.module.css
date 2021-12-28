@@ -11,7 +11,7 @@
 .HText {
   padding-bottom: 20px;
   padding-top: 20px;
-  font-size: 2.0rem;
+  font-size: 1.90rem;
   
 }
 .Wrapper p {
@@ -22,6 +22,11 @@
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
+    
+}
+.Development{
+    padding-bottom: 50px;
+
 }
 .SkillList h3{
     padding-bottom: 10px;
