@@ -1,7 +1,7 @@
 .Header-Container {
   max-width: 1500px;
   margin: 0 auto;
-  overflow: none;
+  overflow: none !important;
   padding: 0 40px;
   display: flex;
   align-items: center;
@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .navbar {
     height: 120px;
     margin-bottom: 0px;

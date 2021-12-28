@@ -67,6 +67,7 @@ function about() {
             <ul className={Styles.Skills}>
               <li>Git</li>
               <li>AWS</li>
+              <li>Eclipse</li>
             </ul>
           </div>
           <div>
@@ -74,6 +75,7 @@ function about() {
             <ul className={Styles.Skills}>
               <li>Docker</li>
               <li>Kubernetes</li>
+              <li>Ansible</li>
             </ul>
           </div>
         </div>
