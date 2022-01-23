@@ -29,7 +29,9 @@ function about() {
           each section and got it running end to end in Kubernetes.
         </p>
         <p>
-         I am currently most interested in learning Django and how to build a machine learning API that I will be able to integrate with the coating automation software for my current employer.
+          I am currently most interested in learning Django and how to build a
+          machine learning API that I will be able to integrate with the coating
+          automation software for my current employer.
         </p>
         <h1 className={Styles.HText}>Programming Skills</h1>
         <div className={Styles.SkillList}>

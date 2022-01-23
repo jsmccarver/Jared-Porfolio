@@ -2,7 +2,6 @@ import Head from "next/head";
 import Styles from "../styles/Home.module.css";
 import ProjectList from "../Components/ProjectList";
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -28,7 +27,9 @@ export default function Home() {
               </h3>
             </div>
           </div>
-          <ProjectList/>
+          <div id="projects">
+            <ProjectList />
+          </div>
         </div>
       </main>
     </>

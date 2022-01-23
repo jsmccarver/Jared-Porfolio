@@ -5,44 +5,32 @@ const ProjectList = () => {
     {
       Name: "Allyson Freeman",
       Link: "https://allysonfreeman.com/",
-      Programs: [
-        { name: "React" },
-        { name: "next" },
-        { name: "Unsplash API" },
-        { name: "Weather API" },
-      ],
+      Programs: [{ name: "React" }, { name: "next" }, { name: "ESRI GIS API" }],
       Color: "#82D4BB",
       TextColor: "white",
+      img: "./Allyson_site.jpg",
       Description:
         "I was the developer for Allyson&apos;s personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
     },
     {
-      Name: "Allyson Freeman",
-      Link: "https://allysonfreeman.com/",
-      Programs: [
-        { name: "React" },
-        { name: "next" },
-        { name: "Unsplash API" },
-        { name: "Weather API" },
-      ],
-      Color: "#eddcd2",
-      TextColor: "#7E7F9A",
-      Description:
-        "I was the developer for Allyson&apos;s personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
-    },
-    {
-      Name: "Weather App",
-      Link: "https://jmccarver.com/proje",
-      Programs: [
-        { name: "React" },
-        { name: "next" },
-        { name: "Unsplash API" },
-        { name: "Weather API" },
-      ],
+      Name: "Freeman Pet Shop",
+      Link: "https://jmccarver.com/projects",
+      Programs: [{ name: "Django" }, { name: "HTML5" }, { name: "Postgres" }],
       Color: "#edf2fb",
       TextColor: "#89608E",
+      img: "./Under-Construction-Sign.png",
       Description:
-        "I was the developer for Allyson&apos;s personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
+        "My Fiance and and I love pets and recently adopted a new kitten from Petsmart. I made this theoretical website in order for people to find forever homes for their fostered kittens and dogs. It is made using Django that connects to a postgres database.",
+    },
+    {
+      Name: "Jared McCarver",
+      Link: "https://allysonfreeman.com/",
+      Programs: [{ name: "React" }, { name: "next" }],
+      Color: "#eddcd2",
+      TextColor: "#7E7F9A",
+      img: "./Jared_site.png",
+      Description:
+        "This is my personal webpage. I created it using React and Next JS. ",
     },
   ];
   return (
@@ -67,7 +55,7 @@ const ProjectList = () => {
               <p style={{ color: Project.TextColor }}>{Project.Description}</p>
             </div>
             <div className={Styles["example-images"]}>
-              <img src={"./Allyson_site.jpg"} />
+              <img src={Project.img} />
             </div>
           </div>
         </section>
