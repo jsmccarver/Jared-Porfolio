@@ -6,99 +6,87 @@
   margin: 0px;
   padding: 30px 0px;
 }
-.code-image {
-  justify-content: flex-end !important;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-.code-image svg {
-  width: 125px;
-  height: 125px;
-  fill: rgb(255, 166, 0);
-}
+
 .intro-bg {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px #e6e6e6 solid;
 }
 .Intro {
-  padding: 140px 0px !important;
-  grid-template-columns: 1fr 8fr !important;
+  padding: 50px 0px !important;
   margin: 0 auto !important;
-  width: 47% !important;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-.Intro div:first-of-type {
-  margin-left: auto;
 }
 
 .Intro-text button {
   margin-top: 30px;
   padding: 10px 25px;
-  background-color: white;
+  color: honeydew;
+  background-color: #432b8c;
+  border-radius: 35px;
   border: 2px black solid;
+  width: 200px;
+  height: 50px;
 }
-.Intro-text h2 {
-  padding-right: 150px !important;
+.Intro-text button:hover{
+  background-color: #331f70;
+  cursor: pointer;
 }
-.Introduction-text h1 {
-  font-size: 6rem;
-  font-weight: 600;
+.Intro-text div:first-of-type{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
 }
-.Introduction-text h3 {
-  font-size: 1.5rem;
+.Intro-text div:first-of-type h1,
+.Intro-text div:first-of-type h3,
+.Intro-text div:first-of-type button{
+  margin: 15px 0px;
+}
+.Intro-text{
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow: none !important;
+  padding: 0 40px;
+  display: grid;
+  align-items: left;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1.50fr;
+  gap: 0px 50px;
+  height: 100%;
+  width: 100%;
+}
+.Intro-text h1 {
   color: black;
-  font-weight: 600;
+  font-weight: 100;
 }
+.Intro-text h3 {
+  color: black;
+}
+
 
 
 
 @media screen and (max-width: 1050px) {
-  .Introduction h1,
-  .Introduction h3 {
-    width: 70%;
-  }
-  .Introduction h1,
-  .Introduction h3 {
-    width: 80%;
-  }
   .Intro {
-    padding: 30px 0px !important;
+    padding: 15px 0px !important;
     grid-template-columns: 1fr !important;
-
     width: 85% !important;
   }
-  .code-image {
+  .Intro-text {
+    grid-template-columns: 1fr;
+    align-items: center !important;
     justify-content: center !important;
   }
-  .code-image svg {
-    width: 75px;
-    height: 75px;
-    fill: "orange";
+  .Intro-text div:nth-child(2){
+    grid-row: 1;
   }
-  .Intro-text {
-    margin: 0 auto !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .Intro-text h2,
+  .Intro-text h1,
   .Intro-text h3 {
     padding: 0px !important;
     text-align: center;
   }
-  .Intro-text button {
-    text-align: center !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 150px;
+  .Intro-text div:first-of-type{
+    align-items: center;
   }
 }
