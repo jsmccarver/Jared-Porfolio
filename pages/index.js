@@ -18,7 +18,7 @@ export default function Home() {
               <div>
                 <h1>I will design and develop your Websites and Apps</h1>
                 <h3>
-                  Hi, My name is Jared I am an aspiring web developer. I will
+                  Hi, My name is Jared and I am an aspiring web developer. I will
                   work diligently using my skills to build the best website for
                   you!
                 </h3>
@@ -34,6 +34,7 @@ export default function Home() {
             </div>
           </div>
           <div id="projects">
+            
             <ProjectList />
           </div>
         </div>
