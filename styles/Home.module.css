@@ -82,13 +82,14 @@
 }
 .contacttext p {
   font-size: 16px;
-  margin-bottom: 15px;
+  margin: 10px 0px;
 }
 .contacttext ul li {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: left;
+  margin: 15px 0px;
 }
 .contacttext ul li svg {
   margin-right: 15px;
