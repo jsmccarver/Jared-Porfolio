@@ -63,33 +63,78 @@
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1500px;
-  margin: 0 auto;
+  max-width: 1325px;
+  gap: 0px 50px;
+  margin: 30px auto;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+}
+.contacttext {
+  display: flex;
+  flex-direction: column;
+  justify-self: left;
+  align-self: flex-start;
+  text-align: left;
+}
+.contacttext h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.contacttext p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.contacttext ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.contacttext ul li svg {
+  margin-right: 15px;
 }
 .contactform {
   display: grid;
   gap: 0px 0px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 .contactinputs {
   display: flex;
   flex-direction: column;
 }
 .contactinputs input,
-.contactinputs button {
+.contactform button {
   margin: 10px 0px;
   height: 45px;
   width: 250px;
   border: 1px black solid;
   border-radius: 10px;
   text-align: center;
+  background-color: #f4f4f4;
+}
+.contactform button {
+  background-color: #432b8c;
+  color: honeydew;
+}
+.contactform button:hover {
+  cursor: pointer;
+  background-color: #331f70;
 }
 .messagebox {
   margin: 10px 0px;
   justify-self: center;
-  width: 250px;
+}
+.messagebox textarea {
+  width: 350px;
+  max-width: 350px;
+  min-width: 350px;
+  height: 100%;
+  max-height: 300px;
+  border: 1px black solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: #f4f4f4;
 }
 @media screen and (max-width: 1050px) {
   .Intro {
@@ -97,7 +142,7 @@
     grid-template-columns: 1fr !important;
   }
   .Intro-text {
-    padding: 0 5px;
+    padding: 0 8px;
     grid-template-columns: 1fr;
     align-items: center !important;
     justify-content: center !important;
@@ -123,5 +168,30 @@
   }
   .contact {
     grid-template-columns: 1fr;
+    padding: 0 5px;
+  }
+  .contacttext {
+    text-align: center;
+  }
+  .contactform {
+    justify-self: center;
+    grid-template-columns: 1fr;
+  }
+  .contactinputs input, .contactform button {
+    width: 350px;
+
+  }
+  .contacttext ul li {
+    margin: 0 30px;
+    display: flex;
+    text-align: left;
+    
+  }
+
+  .contacttext ul li svg {
+    align-self: right;
+    justify-content: end;
+    justify-items: end;
+    justify-self: end;
   }
 }

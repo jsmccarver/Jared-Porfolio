@@ -33,7 +33,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link href="./contact">
+              <Link href="/#contact">
                 <a>
                   <h3>contact</h3>
                 </a>
