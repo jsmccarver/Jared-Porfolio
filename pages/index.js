@@ -48,59 +48,49 @@ export default function Home() {
                 </p>
                 <ul>
                   <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="44"
-                      height="44"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="#432b8c"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <rect x="4" y="4" width="16" height="16" rx="2" />
-                      <path d="M4 13h3l3 3h4l3 -3h3" />
-                    </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width={44} height={44} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#432b8c" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <rect x={4} y={4} width={16} height={16} rx={2} />
+        <path d="M4 13h3l3 3h4l3 -3h3" />
+      </svg>
                     <h3>jared.mccarver@gmail.com</h3>
                   </li>
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="44"
-                      height="44"
+                      width={44}
+                      height={44}
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#432b8c"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M11 3h10v8h-3l-4 2v-2h-3z" />
                       <path d="M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2" />
                       <path d="M10 18v.01" />
                     </svg>
-                    <h3>+1 801-717-0609</h3>
+                    ); }<h3>+1 801-717-0609</h3>
                   </li>
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="44"
-                      height="44"
+                      width={44}
+                      height={44}
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#432b8c"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M10.828 9.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-                      <line x1="8" y1="7" x2="8" y2="7.01" />
+                      <line x1={8} y1={7} x2={8} y2="7.01" />
                       <path d="M18.828 17.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-                      <line x1="16" y1="15" x2="16" y2="15.01" />
+                      <line x1={16} y1={15} x2={16} y2="15.01" />
                     </svg>
                     <h3>Wake Forest, North Carolina, USA</h3>
                   </li>
