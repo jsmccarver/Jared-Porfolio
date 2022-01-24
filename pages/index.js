@@ -50,7 +50,6 @@ export default function Home() {
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-inbox"
                       width="44"
                       height="44"
                       viewBox="0 0 24 24"
@@ -69,7 +68,6 @@ export default function Home() {
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-device-mobile-message"
                       width="44"
                       height="44"
                       viewBox="0 0 24 24"
@@ -89,7 +87,6 @@ export default function Home() {
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-map-pins"
                       width="44"
                       height="44"
                       viewBox="0 0 24 24"
