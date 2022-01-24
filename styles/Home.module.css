@@ -12,7 +12,6 @@
   display: grid;
 }
 
-
 .Intro-text {
   max-width: 1500px;
   margin: 0 auto;
@@ -58,7 +57,40 @@
 .Intro-text div:first-of-type button {
   margin: 15px 0px;
 }
-
+.contactwrapper {
+  text-align: center;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1500px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.contactform {
+  display: grid;
+  gap: 0px 0px;
+  grid-template-columns: 1fr 1fr;
+}
+.contactinputs {
+  display: flex;
+  flex-direction: column;
+}
+.contactinputs input,
+.contactinputs button {
+  margin: 10px 0px;
+  height: 45px;
+  width: 250px;
+  border: 1px black solid;
+  border-radius: 10px;
+  text-align: center;
+}
+.messagebox {
+  margin: 10px 0px;
+  justify-self: center;
+  width: 250px;
+}
 @media screen and (max-width: 1050px) {
   .Intro {
     padding: 15px 0px !important;
@@ -73,7 +105,7 @@
   .Intro-text div:nth-child(2) {
     grid-row: 1;
   }
-  
+
   .Intro-text h1,
   .Intro-text h3 {
     padding: 0px !important;
@@ -88,5 +120,8 @@
   }
   .Intro-text div:first-of-type {
     align-items: center;
+  }
+  .contact {
+    grid-template-columns: 1fr;
   }
 }
