@@ -5,7 +5,11 @@ function Header() {
   const [showNav, setNavValue] = useState(false);
   return (
     <div className={Styles.navbar}>
-      <div className={showNav ? null : Styles["Header-Container"]}>
+      <div
+        className={
+          showNav ? Styles["Mobile-Menu-Container"] : Styles["Header-Container"]
+        }
+      >
         <Link href="./">
           <a>
             <h1>Jared McCarver</h1>
