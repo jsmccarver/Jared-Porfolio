@@ -1,9 +1,11 @@
 import Styles from "./styles/Header.module.css";
 import Link from "next/link";
+import { useState } from "react";
 function Header() {
+  const [showNav, setNavValue] = useState(false);
   return (
     <div className={Styles.navbar}>
-      <div className={Styles["Header-Container"]}>
+      <div className={showNav ? null : Styles["Header-Container"]}>
         <Link href="./">
           <a>
             <h1>Jared McCarver</h1>
@@ -12,7 +14,14 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <img className={Styles.burgericon} src="menu-icon.svg" />
+              <img
+                onClick={(e) => {
+                  setNavValue(!showNav);
+                  console.log(showNav);
+                }}
+                className={Styles.burgericon}
+                src="menu-icon.svg"
+              />
             </li>
             <li>
               <Link href="./">
