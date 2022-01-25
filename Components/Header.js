@@ -12,6 +12,9 @@ function Header() {
         <nav>
           <ul>
             <li>
+              <img className={Styles.burgericon} src="menu-icon.svg" />
+            </li>
+            <li>
               <Link href="./">
                 <a>
                   <h3>home</h3>

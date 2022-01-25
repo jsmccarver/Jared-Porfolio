@@ -10,7 +10,7 @@
   width: 100%;
 }
 .navbar {
-  background-color: #ffffff52;
+  background-color: #ffffff;
   color: #fff;
   height: 65px;
 }
@@ -27,47 +27,54 @@
 .navbar a {
   color: #0090b4;
   font-weight: 600;
+  display: block;
+  position: relative;
+  padding: 0.1em 0;
+  overflow: hidden;
 }
-.navbar .flex {
-  justify-content: space-between;
+.navbar a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #432b8c;
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+  transition: opacity 400ms, transform 300ms;
 }
-.Header-Container li h3 {
-  border-bottom: transparent 3px solid;
-}
-.Header-Container li:hover h3 {
-  border-bottom: rgb(17, 20, 218) 3px solid;
-  animation: dude 0.35s 1 ease-in-out;
+.navbar a:hover::after {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
 
-
-@keyframes dude {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
+.burgericon {
+  display: none;
 }
 
 @media screen and (max-width: 900px) {
-  .navbar {
-    height: 120px;
-    margin-bottom: 0px;
-  }
-  .navbar h1 {
-    font-size: 35px;
-  }
   .Header-Container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 0px 0px 0px 15px;
   }
-}
-@media screen and (max-width: 750px) {
-  .navbar h1 {
-    font-size: 25px;
+  .Header-Container-clicked {
+    height: 100vh;
+    width: 100vw;
   }
-  .navbar {
-    margin-bottom: 0px;
+  .Header-Container h1 {
+    font-size: 2.25rem;
+  }
+  .navbar li {
+    display: none;
+  }
+  .navbar li:first-of-type {
+    display: inline-block;
+  }
+  .burgericon {
+    display: flex !important;
+    align-content: center;
+    justify-self: center;
+    height: 30px;
+    width: 30px;
   }
 }
