@@ -17,7 +17,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+html:focus-within {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
