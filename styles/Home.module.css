@@ -1,13 +1,9 @@
 .Home {
   width: 100% !important;
 }
-.Home > div {
-  border-bottom: 1px #e6e6e6 solid;
-  margin: 0px;
-  padding: 30px 0px;
-}
+
 .Intro {
-  padding: 50px 0px !important;
+  padding-top: 50px;
   margin: 0 auto !important;
   display: grid;
 }
@@ -16,7 +12,7 @@
   max-width: 1500px;
   margin: 0 auto;
   overflow: none !important;
-  padding: 0 40px;
+  padding: 0px  0px;
   display: grid;
   align-items: left;
   justify-content: space-between;

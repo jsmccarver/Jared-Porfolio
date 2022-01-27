@@ -80,6 +80,7 @@ function about() {
             <ul className={Styles.Skills}>
               <li>Docker</li>
               <li>Kubernetes</li>
+              
             </ul>
           </div>
         </div>
