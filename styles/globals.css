@@ -89,6 +89,7 @@ img {
   padding: 0px;
   border: 0px solid #f00;
   overflow: hidden;
+  display: block;
 }
 .spacer1 {
   background-image: url("/wave1.svg");
@@ -97,6 +98,7 @@ img {
   background-image: url("/wave2.svg") !important;
 }
 .spacer3 {
+  display: block;
   aspect-ratio: 960/50;
   width: 100%;
   background-repeat: no-repeat;
