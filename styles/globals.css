@@ -86,7 +86,7 @@ img {
   background-size: cover;
 }
 .spacer1 {
-  background-image: url("../public/wave1.svg");
+  background-image: url("/wave1.svg");
 }
 .spacer2 {
   background-image: url("/wave2.svg") !important;
