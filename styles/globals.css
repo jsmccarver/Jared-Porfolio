@@ -79,17 +79,12 @@ img {
 }
 
 .spacer {
-  aspect-ratio: 960/50;
+  aspect-ratio: 1000/50;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
   background-size: 100%;
-  margin: 0px;
-  padding: 0px;
-  border: 0px solid #f00;
-  overflow: hidden;
-  display: block;
 }
 .spacer1 {
   background-image: url("/wave1.svg");
