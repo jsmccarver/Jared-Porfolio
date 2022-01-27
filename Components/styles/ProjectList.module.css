@@ -68,7 +68,7 @@
 }
 @media screen and (max-width: 1650px) {
   .Project {
-    padding: 35px 2.5vw !important;
+    padding: 10px 2.5vw !important;
   }
   .ProjectWrapper {
     gap: 40px;
