@@ -40,7 +40,7 @@ const ProjectList = () => {
     <div className={Styles.projects}>
       <div className={"spacer spacer1"} />
       <h1>My Projects</h1>
-      <div className={"spacer3"} />
+      <div className={"spacer spacer3"} />
       {Projects.map((Project) => (
         <>
           <section
