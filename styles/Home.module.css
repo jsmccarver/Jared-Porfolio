@@ -12,7 +12,7 @@
   max-width: 1500px;
   margin: 0 auto;
   overflow: none !important;
-  padding: 0px  0px;
+  padding: 0px 0px;
   display: grid;
   align-items: left;
   justify-content: space-between;
@@ -133,6 +133,7 @@
   padding: 5px;
   background-color: #f4f4f4;
 }
+
 @media screen and (max-width: 1050px) {
   .Intro {
     padding: 15px 0px !important;
@@ -174,15 +175,14 @@
     justify-self: center;
     grid-template-columns: 1fr;
   }
-  .contactinputs input, .contactform button {
+  .contactinputs input,
+  .contactform button {
     width: 350px;
-
   }
   .contacttext ul li {
     margin: 0 30px;
     display: flex;
     text-align: left;
-    
   }
 
   .contacttext ul li svg {

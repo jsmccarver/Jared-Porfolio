@@ -5,9 +5,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f9f9f9;
 }
 .Project {
-  padding: 65px 15vw !important;
+  padding: 25px 15vw !important;
 }
 .ProjectWrapper {
   grid-template-columns: 1fr 2fr;
@@ -36,7 +37,6 @@
   grid-column: span 2;
   text-align: center;
   margin: 0px !important;
-  padding: 30px 0px !important;
 }
 .description {
   margin: 0px !important;
@@ -85,6 +85,6 @@
   }
 
   .example-images {
-    grid-row-start: 1!important;
+    grid-row-start: 1 !important;
   }
 }
