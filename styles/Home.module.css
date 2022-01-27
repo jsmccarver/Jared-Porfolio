@@ -61,7 +61,6 @@
   grid-template-columns: 1fr 1fr;
   max-width: 1325px;
   gap: 0px 50px;
-  padding: 0 40px;
   margin: 30px auto;
   align-items: center;
   justify-content: left;
@@ -198,5 +197,8 @@
     justify-content: end;
     justify-items: end;
     justify-self: end;
+  }
+  .messagebox textarea {
+    min-width: 0px !important;
   }
 }
