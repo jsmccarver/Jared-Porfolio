@@ -86,19 +86,19 @@ img {
   background-size: cover;
 }
 .spacer1 {
-  background-image: url("./wave1.svg");
+  background-image: url("../public/wave1.svg");
 }
 .spacer2 {
-  background-image: url("./wave2.svg") !important;
+  background-image: url("/wave2.svg") !important;
 }
 .spacer3 {
-  background-image: url("./wave3.svg") !important;
+  background-image: url("/wave3.svg") !important;
 }
 .spacer4 {
-  background-image: url("./petshopwave.svg") !important;
+  background-image: url("/petshopwave.svg") !important;
 }
 .spacer5 {
-  background-image: url("./wave5.svg") !important;
+  background-image: url("/wave5.svg") !important;
 }
 
 @media screen and (max-width: 1050px) {
