@@ -36,7 +36,7 @@ export default function Home() {
           <div id="projects">
             <ProjectList />
           </div>
-    {/*  <div className={Styles.contactwrapper} id="contact">
+          {/*  <div className={Styles.contactwrapper} id="contact">
             <h1>Contact Me</h1>
             <div className={Styles.contact}>
               <div className={Styles.contacttext}>
@@ -158,8 +158,8 @@ export default function Home() {
                 </button>
               </form>
             </div>
-          </div>
-                </div> */}   
+          </div>*/}
+        </div>
       </main>
     </>
   );
