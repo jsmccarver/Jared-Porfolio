@@ -87,4 +87,7 @@
   .example-images {
     grid-row-start: 1 !important;
   }
+  .description p {
+    border-bottom: 0px solid #432b8cff !important;
+  }
 }
