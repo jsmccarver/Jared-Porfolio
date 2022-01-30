@@ -53,7 +53,7 @@ export default function Home() {
             <h1>Lorem Ipsum Ipsum</h1>
             <h3>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industs standard dummy text
               ever since the 1500 when an unknown
             </h3>
           </div>
