@@ -42,7 +42,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/#projects">
+              <Link href="./projects">
                 <a>
                   <h3>projects</h3>
                 </a>

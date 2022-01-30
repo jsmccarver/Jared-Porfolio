@@ -1,8 +1,24 @@
 import Head from "next/head";
 import Styles from "../styles/Home.module.css";
-import ProjectList from "../Components/ProjectList";
 import Link from "next/link";
 export default function Home() {
+  const Projects = [
+    {
+      Name: "Freeman Pet Shop",
+      Link: "https://jmccarver.com/projects",
+      img: "./Allyson_site_thumb.png",
+    },
+    {
+      Name: "Jared McCarver",
+      Link: "https://allysonfreeman.com/",
+      img: "./Jared_site_thumb.png",
+    },
+    {
+      Name: "Allyson Freeman",
+      Link: "https://allysonfreeman.com/",
+      img: "./Allyson_site_thumb.png",
+    },
+  ];
   return (
     <>
       <Head>
@@ -33,133 +49,31 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div id="projects">
-            <ProjectList />
+          <div className={Styles.BriefIntro}>
+            <h1>Lorem Ipsum Ipsum</h1>
+            <h3>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown
+            </h3>
           </div>
-          {/*  <div className={Styles.contactwrapper} id="contact">
-            <h1>Contact Me</h1>
-            <div className={Styles.contact}>
-              <div className={Styles.contacttext}>
-                <h3>Send Me A Message</h3>
-                <p>
-                  Do you have an interest in Web Design or are looking to build
-                  you own website. Drop me a message and we can set up a time to
-                  chat!
-                </p>
-                <ul>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={44}
-                      height={44}
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#432b8c"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <rect x={4} y={4} width={16} height={16} rx={2} />
-                      <path d="M4 13h3l3 3h4l3 -3h3" />
-                    </svg>
-                    <h3>jared.mccarver@gmail.com</h3>
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={44}
-                      height={44}
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#432b8c"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M11 3h10v8h-3l-4 2v-2h-3z" />
-                      <path d="M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2" />
-                      <path d="M10 18v.01" />
-                    </svg>
-                    <h3>+1 801-717-0609</h3>
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={44}
-                      height={44}
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="#432b8c"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M10.828 9.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-                      <line x1={8} y1={7} x2={8} y2="7.01" />
-                      <path d="M18.828 17.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-                      <line x1={16} y1={15} x2={16} y2="15.01" />
-                    </svg>
-                    <h3>Wake Forest, North Carolina, USA</h3>
-                  </li>
-                </ul>
-              </div>
-
-              <form
-                className={Styles.contactform}
-                action="https://submit-form.com/QObGMX5B"
-              >
-                <div className={Styles.contactinputs}>
-                  <input
-                    type="hidden"
-                    name="_redirect"
-                    value="https://localhost:3000/thanks"
-                  />
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Jared McCarver"
-                    required=""
-                  />
-                  <input
-                    type="tel"
-                    id="tel"
-                    name="tel"
-                    placeholder="Phone Number"
-                    required=""
-                  />
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="email@example.com"
-                    required=""
-                  />
+          <div className={Styles.FeaturedProjects}>
+            <h1>Featured Projects</h1>
+            <div className={Styles.Cards}>
+              {Projects.map((Project) => (
+                <div className={Styles.Project}>
+                  <img src={Project.img}></img>
+                  <div className={Styles["Project-text"]}>
+                    <a href={Project.Link}>
+                      <h3>{Project.Name}</h3>
+                    </a>
+                    <p>Basic sumamry for now</p>
+                  </div>
                 </div>
-                <div className={Styles.messagebox}>
-                  <textarea
-                    id="message"
-                    name="message"
-                    placeholder="Please enter your message..."
-                    required=""
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  onClick={(e) => {
-                    e.preventDefault();
-                  }}
-                  className={Styles.button}
-                >
-                  Send Request &#8594;
-                </button>
-              </form>
+              ))}
             </div>
-          </div>*/}
-          y
+            <button>All Projects</button>
+          </div>
         </div>
       </main>
     </>

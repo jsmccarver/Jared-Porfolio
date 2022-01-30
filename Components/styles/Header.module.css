@@ -1,5 +1,5 @@
 .Header-Container {
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
   overflow: none !important;
   padding: 0 40px;
@@ -87,7 +87,7 @@
   right: 15px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .Header-Container {
     padding: 0px 0px 0px 15px;
   }
@@ -106,5 +106,10 @@
     justify-self: center;
     height: 30px;
     width: 30px;
+  }
+}
+@media screen and (max-width: 500px){
+  .Header-Container h1 {
+    font-size: 1.8rem;
   }
 }

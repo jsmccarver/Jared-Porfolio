@@ -53,86 +53,69 @@
 .Intro-text div:first-of-type button {
   margin: 15px 0px;
 }
-.contactwrapper {
-  text-align: center;
-}
-.contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1325px;
-  gap: 0px 50px;
-  margin: 30px auto;
-  align-items: center;
-  justify-content: left;
-}
-.contacttext {
+.BriefIntro {
   display: flex;
   flex-direction: column;
-  justify-self: left;
-  align-self: flex-start;
-  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  background-color: #f8f8f8;
 }
-.contacttext h3 {
-  font-size: 22px;
-  margin-bottom: 15px;
+.BriefIntro h1,
+.BriefIntro h3 {
+  max-width: 1000px;
+  color: black;
+  padding: 1.25rem !important;
 }
-.contacttext p {
-  font-size: 16px;
-  margin: 10px 0px;
+.FeaturedProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  background-color: white;
 }
-.contacttext ul li {
+.FeaturedProjects h1 {
+  max-width: 1000px;
+  color: black;
+  padding: 1.25rem;
+}
+.Cards {
   display: flex;
   flex-direction: row;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: left;
-  margin: 15px 0px;
+  justify-content: center;
+  gap: 5rem;
+  width: 100%;
 }
-.contacttext ul li svg {
-  margin-right: 15px;
-}
-.contactform {
-  display: grid;
-  gap: 0px 0px;
-  grid-template-columns: 1fr 2fr;
-}
-.contactinputs {
+.Project {
   display: flex;
   flex-direction: column;
-}
-.contactinputs input,
-.contactform button {
-  margin: 10px 0px;
-  height: 45px;
-  width: 250px;
   border: 1px black solid;
-  border-radius: 10px;
-  text-align: center;
-  background-color: #f4f4f4;
+  background-color: #182025;
 }
-.contactform button {
-  background-color: #432b8c;
-  color: honeydew;
+.Project h3,
+.Project p {
+  color: honeydew !important;
 }
-.contactform button:hover {
+.Project-text {
+  padding: 1rem;
+}
+.Project img {
+  width: 450px;
+
+}
+.FeaturedProjects button{
+  margin: 1.25rem;
+  padding: .75rem 1.25rem;;
+  background-color: white;
+  border: black 2px solid;
   cursor: pointer;
-  background-color: #331f70;
 }
-.messagebox {
-  margin: 10px 0px;
-  justify-self: center;
-}
-.messagebox textarea {
-  width: 350px;
-  max-width: 350px;
-  min-width: 350px;
-  height: 100%;
-  max-height: 300px;
-  border: 1px black solid;
-  border-radius: 10px;
-  text-align: center;
-  padding: 5px;
-  background-color: #f4f4f4;
-}
+
 @media screen and (max-width: 1200px) {
   .Intro-text h1 {
     font-size: 2.5rem;
@@ -171,34 +154,8 @@
   .Intro-text div:first-of-type {
     align-items: center;
   }
-  .contact {
-    grid-template-columns: 1fr;
-    padding: 0 5px;
-  }
-  .contacttext {
-    text-align: center;
-  }
-  .contactform {
-    justify-self: center;
-    grid-template-columns: 1fr;
-  }
-  .contactinputs input,
-  .contactform button {
-    width: 350px;
-  }
-  .contacttext ul li {
-    margin: 0 30px;
-    display: flex;
-    text-align: left;
-  }
-
-  .contacttext ul li svg {
-    align-self: right;
-    justify-content: end;
-    justify-items: end;
-    justify-self: end;
-  }
-  .messagebox textarea {
-    min-width: 0px !important;
+  .Project img {
+    width: 90vw;
+  
   }
 }
