@@ -45,7 +45,7 @@ const ProjectList = () => {
       <h3>A collection of my projects utilizing Front-End and Back-End Technolgies.</h3>
       {/* <div className={"spacer spacer3"} */}
       {Projects.map((Project) => (
-        <>
+        <div key={Project.Name}>
           <section
             className={Styles.Project}
             style={{ backgroundColor: Project.Color }}
@@ -73,11 +73,9 @@ const ProjectList = () => {
             </div>
           </section>
            {/*<div className={Project.wave} />*/}
-        </>
+        </div>
       ))}
-      <button>
-        All Projects
-      </button>
+     
     </div>
   );
 };

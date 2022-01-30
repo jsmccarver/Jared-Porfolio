@@ -61,7 +61,7 @@ export default function Home() {
             <h1>Featured Projects</h1>
             <div className={Styles.Cards}>
               {Projects.map((Project) => (
-                <div className={Styles.Project}>
+                <div key={Project.Name} className={Styles.Project}>
                   <img src={Project.img}></img>
                   <div className={Styles["Project-text"]}>
                     <a href={Project.Link}>
