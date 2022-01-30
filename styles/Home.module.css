@@ -106,11 +106,10 @@
 }
 .Project img {
   width: 450px;
-
 }
-.FeaturedProjects button{
+.FeaturedProjects button {
   margin: 1.25rem;
-  padding: .75rem 1.25rem;;
+  padding: 0.75rem 1.25rem;
   background-color: white;
   border: black 2px solid;
   cursor: pointer;
@@ -144,18 +143,28 @@
     padding: 0px !important;
     text-align: center;
   }
-
-  .Intro-text h1 {
-    font-size: 24pt;
+  .Intro-text h1{
+    font-size: 1.8rem;
   }
   .Intro-text h3 {
-    font-size: 16pt;
+    font-size: 1.2rem !important;
   }
   .Intro-text div:first-of-type {
     align-items: center;
   }
   .Project img {
     width: 90vw;
-  
+  }
+  .BriefIntro h1,
+  .FeaturedProjects h1 {
+    font-size: 2rem;
+  }
+  .BriefIntro h3{
+    font-size: 1.2rem;
+  }
+  .BriefIntro h1,
+  .BriefIntro h3 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }

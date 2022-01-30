@@ -11,7 +11,7 @@ export default function Home() {
     {
       Name: "Jared McCarver",
       Link: "https://allysonfreeman.com/",
-      img: "./Jared_site_thumb.png",
+      img: "./jared_site_thumb.png",
     },
     {
       Name: "Allyson Freeman",
