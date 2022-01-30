@@ -54,7 +54,7 @@ export default function Home() {
             <h3>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown
+              ever since the 1500 when an unknown
             </h3>
           </div>
           <div className={Styles.FeaturedProjects}>
