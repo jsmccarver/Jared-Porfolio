@@ -35,14 +35,15 @@ const ProjectList = () => {
       Description:
         "I was the developer for Allyson's personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentlypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. You can find out more through the link. The project is written in React JS.",
     },
-
-
   ];
   return (
     <div className={Styles.projects}>
       {/* <div className={"spacer spacer1"} /> */}
       <h1>My Projects.</h1>
-      <h3>A collection of my projects utilizing Front-End and Back-End Technolgies.</h3>
+      <h3>
+        A collection of my projects utilizing Front-End and Back-End
+        Technolgies.
+      </h3>
       {/* <div className={"spacer spacer3"} */}
       {Projects.map((Project) => (
         <div key={Project.Name}>
@@ -58,7 +59,13 @@ const ProjectList = () => {
                 </a>
                 <ul className={Styles.Programs}>
                   {Project.Programs.map((Program) => (
-                    <li style={{ color: Project.TextColor, borderColor: Project.TextColor }}>
+                    <li
+                      key={Program.name}
+                      style={{
+                        color: Project.TextColor,
+                        borderColor: Project.TextColor,
+                      }}
+                    >
                       {Program.name}
                     </li>
                   ))}
@@ -72,10 +79,9 @@ const ProjectList = () => {
               </div>
             </div>
           </section>
-           {/*<div className={Project.wave} />*/}
+          {/*<div className={Project.wave} />*/}
         </div>
       ))}
-     
     </div>
   );
 };
