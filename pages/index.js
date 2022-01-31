@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Styles from "../styles/Home.module.css";
 import Link from "next/link";
+import WorkFromHome from "../Components/Work_Home";
 export default function Home() {
   const Projects = [
     {
@@ -45,7 +46,7 @@ export default function Home() {
                 </Link>
               </div>
               <div>
-                <img src="./Work_Home.svg"></img>
+                <WorkFromHome />
               </div>
             </div>
           </div>
