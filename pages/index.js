@@ -21,7 +21,7 @@ export default function Home() {
       Name: "Allyson Freeman",
       Link: "https://allysonfreeman.com/",
       img: "./Allyson_site_thumb.png",
-      Description:
+      description:
         "Allyson Freeman GIS Porfolio built in Next that integrates with ESRI API",
     },
   ];
@@ -75,7 +75,7 @@ export default function Home() {
                     <a href={Project.Link}>
                       <h3>{Project.Name}</h3>
                     </a>
-                    <p>{Project.Description}</p>
+                    <p>{Project.description}</p>
                   </div>
                 </div>
               ))}
