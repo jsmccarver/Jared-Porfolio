@@ -51,11 +51,13 @@ export default function Home() {
             </div>
           </div>
           <div className={Styles.BriefIntro}>
-            <h1>Lorem Ipsum Ipsum</h1>
+            <h1>A Little About Me.</h1>
             <h3>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industs standard dummy text
-              ever since the 1500 when an unknown
+              My Name is Jared McCarver. I am a recent graduate of NC State in
+              Electrical and Computer Engineering. I currently work at Stewart
+              Engineers where I am developing a web app to automate Glass
+              Coatings. In my spare time, I love bowling, reading fantasy and
+              history books, and spending time with my 3 cats.
             </h3>
           </div>
           <div className={Styles.FeaturedProjects}>
