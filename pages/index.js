@@ -15,7 +15,8 @@ export default function Home() {
       Name: "Jared McCarver",
       Link: "https://allysonfreeman.com/",
       img: "./jared_site_thumb.png",
-      description: "Personal porfolio built using React and Next JS",
+      description:
+        "Personal porfolio built using React and Next JS. Icon and landing image made by Allyson Freeman",
     },
     {
       Name: "Allyson Freeman",
