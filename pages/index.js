@@ -86,7 +86,7 @@ export default function Home() {
           <div className={`${Styles.chat} ${Styles.BriefIntro}`}>
             <h1>Lets Chat</h1>
             <p>
-              Don't hesitate to contact me about any inquries or concerns you
+              Do not hesitate to contact me about any inquries or concerns you
               may have. I am always ready to talk!
             </p>
             <div>
