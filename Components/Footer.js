@@ -61,7 +61,7 @@ function Footer() {
           </ul>
         </div>
         <div className={Styles.copyright}>
-          <p>Porfolio by Jared McCarver</p>
+          <p>&copy; 2022 Jared McCarver </p>
         </div>
       </div>
     </div>

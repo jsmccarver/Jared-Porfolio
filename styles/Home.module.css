@@ -129,7 +129,7 @@
   transition: background-color 600ms, color 300ms;
 }
 .FeaturedProjects button:hover {
-  background-color: black;
+  background-color: #182025;
   color: white;
 }
 .chat {
@@ -158,7 +158,7 @@
   transition: background-color 600ms, color 300ms;
 }
 .chat button:hover {
-  background-color: black;
+  background-color: #182025;
   color: white;
 }
 @media screen and (max-width: 1200px) {
