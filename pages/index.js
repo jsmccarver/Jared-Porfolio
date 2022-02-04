@@ -6,18 +6,23 @@ export default function Home() {
   const Projects = [
     {
       Name: "Freeman Pet Shop",
-      Link: "https://jmccarver.com/projects",
+      Link: "https://freemanpets.com",
       img: "./Allyson_site_thumb.png",
+      description:
+        "Simple CRUD forum built in Django to share posts about your pets. Includes adoptions section.",
     },
     {
       Name: "Jared McCarver",
       Link: "https://allysonfreeman.com/",
       img: "./jared_site_thumb.png",
+      description: "Personal porfolio built using React and Next JS",
     },
     {
       Name: "Allyson Freeman",
       Link: "https://allysonfreeman.com/",
       img: "./Allyson_site_thumb.png",
+      Description:
+        "Allyson Freeman GIS Porfolio built in Next that integrates with ESRI API",
     },
   ];
   return (
@@ -70,7 +75,7 @@ export default function Home() {
                     <a href={Project.Link}>
                       <h3>{Project.Name}</h3>
                     </a>
-                    <p>Basic sumamry for now</p>
+                    <p>{Project.Description}</p>
                   </div>
                 </div>
               ))}
