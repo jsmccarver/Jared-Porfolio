@@ -83,6 +83,19 @@ export default function Home() {
             </div>
             <button>All Projects</button>
           </div>
+          <div className={`${Styles.chat} ${Styles.BriefIntro}`}>
+            <h1>Lets Chat</h1>
+            <p>
+              Don't hesitate to contact me about any inquries or concerns you
+              may have. I am always ready to talk!
+            </p>
+            <div>
+              <Link href="/#projects">
+                <button>Resume</button>
+              </Link>
+              <button href={"mailto:jared.mccarver@gmail.com"}>Email Me</button>
+            </div>
+          </div>
         </div>
       </main>
     </>

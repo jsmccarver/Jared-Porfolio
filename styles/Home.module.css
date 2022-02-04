@@ -31,16 +31,18 @@
 .Intro-text button {
   margin-top: 30px;
   padding: 10px 25px;
-  color: honeydew;
-  background-color: #432b8c;
-  border-radius: 35px;
+  color: black;
+  background-color: transparent;
   border: 2px black solid;
   width: 200px;
   height: 50px;
+  font-size: 0.95rem;
+  transition: background-color 600ms, color 300ms;
 }
 .Intro-text button:hover {
-  background-color: #331f70;
+  background-color: #432b8c;
   cursor: pointer;
+  color: white;
 }
 .Intro-text div:first-of-type {
   display: flex;
@@ -104,7 +106,7 @@
 
 .Project:hover {
   transform: translate3d(-7px, -7px, 0);
-  box-shadow: 7px 7px 4px #432b8c;
+  box-shadow: 7px 7px 0px #432b8c;
 }
 .Project h3,
 .Project p {
@@ -123,13 +125,42 @@
   background-color: white;
   border: black 2px solid;
   cursor: pointer;
+  width: 130px;
   transition: background-color 600ms, color 300ms;
 }
 .FeaturedProjects button:hover {
   background-color: black;
   color: white;
 }
-
+.chat {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chat h1 {
+  color: black;
+}
+.chat p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  font-weight: 600;
+}
+.chat button {
+  margin: 1.25rem;
+  padding: 0.75rem 1.35rem;
+  width: 130px;
+  background-color: white;
+  border: black 2px solid;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 600ms, color 300ms;
+}
+.chat button:hover {
+  background-color: black;
+  color: white;
+}
 @media screen and (max-width: 1200px) {
   .Intro-text h1 {
     font-size: 2.5rem;
