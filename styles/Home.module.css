@@ -31,8 +31,8 @@
 .Intro-text button {
   margin-top: 30px;
   padding: 10px 25px;
-  color: black;
-  background-color: transparent;
+  color: white;
+  background-color: #432b8c;
   border: 2px black solid;
   width: 200px;
   height: 50px;
@@ -40,9 +40,9 @@
   transition: background-color 600ms, color 300ms;
 }
 .Intro-text button:hover {
-  background-color: #432b8c;
+  background-color: transparent;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 .Intro-text div:first-of-type {
   display: flex;

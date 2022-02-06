@@ -90,7 +90,7 @@ export default function Home() {
               may have. I am always ready to talk!
             </p>
             <div>
-              <Link href="/#projects">
+              <Link href="./Jared McCarver Resume.pdf">
                 <button>Resume</button>
               </Link>
               <button href={"mailto:jared.mccarver@gmail.com"}>Email Me</button>

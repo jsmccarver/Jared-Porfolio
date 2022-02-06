@@ -47,16 +47,19 @@ function Footer() {
               <Link href="./">Home</Link>
             </li>
             <li>
-              <a>About</a>
+              <Link href="./about">
+                <a>About</a>
+              </Link>
             </li>
             <li>
-              <a>Projects</a>
+              <Link href="./projects">
+                <a>Projects</a>
+              </Link>
             </li>
             <li>
-              <a>Contact</a>
-            </li>
-            <li>
-              <a>Get in Touch!</a>
+              
+                <a  href={"mailto:jared.mccarver@gmail.com"}>Contact</a>
+            
             </li>
           </ul>
         </div>
