@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <div className={Styles.FeaturedProjects}>
             <h1>Featured Projects</h1>
-
+            <ProjectList projects={Projects} />
             <button>All Projects</button>
           </div>
           <div className={`${Styles.chat} ${Styles.BriefIntro}`}>
