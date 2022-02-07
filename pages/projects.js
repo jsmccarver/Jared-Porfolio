@@ -7,7 +7,7 @@ function ProjectPage() {
       Link: "https://freemanpets.com",
       img: "./Allyson_site_thumb.png",
       description:
-        "Simple CRUD forum built in Django to share posts about your pets. Includes adoptions section. -- Under Construction",
+        "Simple CRUD forum built in Django to share posts about your pets. -- Under Construction",
     },
     {
       Name: "Jared McCarver",
