@@ -2,6 +2,7 @@ import Head from "next/head";
 import Styles from "../styles/Home.module.css";
 import Link from "next/link";
 import WorkFromHome from "../Components/Work_Home";
+import ProjectList from "../Components/ProjectsList";
 export default function Home() {
   const Projects = [
     {
@@ -68,19 +69,7 @@ export default function Home() {
           </div>
           <div className={Styles.FeaturedProjects}>
             <h1>Featured Projects</h1>
-            <div className={Styles.Cards}>
-              {Projects.map((Project) => (
-                <div key={Project.Name} className={Styles.Project}>
-                  <img src={Project.img}></img>
-                  <div className={Styles["Project-text"]}>
-                    <a href={Project.Link}>
-                      <h3>{Project.Name}</h3>
-                    </a>
-                    <p>{Project.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+
             <button>All Projects</button>
           </div>
           <div className={`${Styles.chat} ${Styles.BriefIntro}`}>
