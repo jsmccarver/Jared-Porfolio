@@ -27,35 +27,55 @@ function Header() {
                 src="menu-icon.svg"
               />
             </li>
-            <li>
+            <li
+              onClick={(e) => {
+                setNavValue(false);
+              }}
+            >
               <Link href="./">
                 <a>
                   <h3>home</h3>
                 </a>
               </Link>
             </li>
-            <li>
+            <li
+              onClick={(e) => {
+                setNavValue(false);
+              }}
+            >
               <Link href="./about">
                 <a>
                   <h3>about</h3>
                 </a>
               </Link>
             </li>
-            <li>
+            <li
+              onClick={(e) => {
+                setNavValue(false);
+              }}
+            >
               <Link href="./projects">
                 <a>
                   <h3>projects</h3>
                 </a>
               </Link>
             </li>
-            <li>
+            <li
+              onClick={(e) => {
+                setNavValue(false);
+              }}
+            >
               <Link href="/#contact">
                 <a>
                   <h3>contact</h3>
                 </a>
               </Link>
             </li>
-            <li>
+            <li
+              onClick={(e) => {
+                setNavValue(false);
+              }}
+            >
               <Link href="./Jared McCarver Resume.pdf">
                 <a>
                   <h3>resume</h3>
