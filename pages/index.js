@@ -46,7 +46,7 @@ export default function Home() {
                   will work diligently using my skills to build the best website
                   for you!
                 </h3>
-                <Link href="/#projects">
+                <Link href="/projects">
                   <a>
                     <button>View My Work</button>
                   </a>

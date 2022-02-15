@@ -33,55 +33,54 @@ function about() {
           machine learning API that I will be able to integrate with the coating
           automation software for my current employer.
         </p>
-        <h1 className={Styles.HText}>Programming Skills</h1>
-        <div className={Styles.SkillList}>
+        <div className={Styles.Skills}>
           <div>
-            <h3>Proficient</h3>
-            <ul className={Styles.Skills}>
-              <li>React JS</li>
-              <li>Next JS</li>
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>JS</li>
-              <li>Python</li>
-            </ul>
+            <h1>Programming Skills</h1>
+            <div>
+              <div>
+                <h3>Proficient</h3>
+                <ul>
+                  <li>React JS</li>
+                  <li>Next JS</li>
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                  <li>Python</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Intermediate</h3>
+                <ul>
+                  <li>Java</li>
+                  <li>C++</li>
+                  <li>C#</li>
+                  <li>C</li>
+                  <li>Django</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>Intermediate</h3>
-            <ul className={Styles.Skills}>
-              <li>Java</li>
-              <li>C++</li>
-              <li>C#</li>
-              <li></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Beginner</h3>
-            <ul className={Styles.Skills}>
-              <li>C</li>
-              <li>PHP</li>
-              <li>Rust</li>
-              <li></li>
-            </ul>
-          </div>
-        </div>
-        <h1 className={Styles.HText}>Development Skills</h1>
-        <div className={`${Styles.SkillList} ${Styles.Development}`}>
-          <div>
-            <h3>Proficient</h3>
-            <ul className={Styles.Skills}>
-              <li>Git</li>
-              <li>AWS</li>
-              <li>Eclipse</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Intermediate</h3>
-            <ul className={Styles.Skills}>
-              <li>Docker</li>
-              <li>Kubernetes</li>
-              
-            </ul>
+            <h1>Development Skills</h1>
+            <div>
+              <div>
+                <h3>Proficient</h3>
+                <ul>
+                  <li>Git</li>
+                  <li>AWS</li>
+                  <li>Heroku</li>
+                  <li>Eclipse</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Intermediate</h3>
+                <ul>
+                  <li>Docker</li>
+                  <li>Kubernetes</li>
+                  <li>Wordpress</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

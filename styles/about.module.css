@@ -1,64 +1,65 @@
 .Wrapper {
-  padding: 0px 25vw;
   flex: 1;
+  max-width: 950px;
+  margin: 0 auto;
 }
 .Wrapper h1:first-of-type {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   padding-top: 80px;
-  font-weight: 800;
-}
-.Wrapper p:last-of-type {
-  padding-bottom: 50px;
-}
-.HText {
-  padding-bottom: 20px;
-  padding-top: 0px;
-  font-size: 1.8rem;
   font-weight: 700;
 }
+.Wrapper p {
+  color: black !important;
+}
+
 .Wrapper p {
   padding-bottom: 10px;
   line-height: 2;
 }
-.SkillList {
-  display: grid;
-  flex-wrap: wrap;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px;
-}
-.SkillList h3 {
-  font-weight: 600;
-}
-.SkillList > div {
-  padding-bottom: 30px;
-}
-.SkillList h3 {
-  padding-bottom: 10px;
-}
 .Skills {
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 10px;
+  padding: 1rem 0px 1.5rem 0px;
+}
+.Skills h1 {
+  padding: 0px 0px 20px 0px !important;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.Skills h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.Skills ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Skills li {
+  font-size: 1rem;
+  color: black;
+  line-height: 3rem;
 }
 
 @media screen and (max-width: 1200px) {
   .Wrapper {
-    padding: 0px 10vw;
+    padding: 30px 2.5vw;
   }
-  .Wrapper h1:first-of-type {
-    text-align: center;
-    font-size: 2.5rem;
+  .Wrapper > h1:first-of-type {
+    text-align: left;
+    font-size: 3rem;
+  }
+  .Wrapper p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 @media screen and (max-width: 900px) {
+  .Skills {
+    grid-template-columns: 1fr;
+    font-size: 1.7rem !important;
+  }
   .Wrapper h1:first-of-type {
     padding-top: 15px;
-  }
-  .SkillList {
-    grid-template-columns: 1fr;
-  }
-  .Skills {
-    grid-template-columns: repeat(auto-fit, 100px);
   }
 }

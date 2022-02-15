@@ -66,6 +66,7 @@
   text-align: center;
   color: white;
   z-index: 5000;
+  overflow: "hidden";
 }
 .Mobile-Menu-Container ul {
   display: flex;
