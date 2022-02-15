@@ -12,7 +12,7 @@ function Header() {
       >
         <Link href="./">
           <a>
-            <h1>Jared McCarver</h1>
+            <img src="/logo.png" /> <h3>Jared McCarver</h3>
           </a>
         </Link>
         <nav>
