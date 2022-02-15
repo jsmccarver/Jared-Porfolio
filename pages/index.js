@@ -72,7 +72,7 @@ export default function Home() {
             <ProjectList projects={Projects} />
             <button>All Projects</button>
           </div>
-          <div className={`${Styles.chat} ${Styles.BriefIntro}`}>
+          <div id="contact" className={`${Styles.chat} ${Styles.BriefIntro}`}>
             <h1>Lets Chat</h1>
             <p>
               Do not hesitate to contact me about any inquries or concerns you

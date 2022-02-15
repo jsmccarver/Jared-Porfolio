@@ -1,24 +1,22 @@
 .Wrapper {
   height: 100%;
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   flex: 1;
+  margin: 0 auto;
+  text-align: center;
 }
 .Wrapper h1:first-of-type {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   padding-top: 80px;
-  font-weight: 800;
+  font-weight: 700;
 }
-
+.Projects {
+  padding: 2rem 0px;
+}
 @media screen and (max-width: 1200px) {
   .Wrapper {
-    padding: 0px 4vw;
+    padding: 30px 2.5vw;
   }
   .Wrapper h1:first-of-type {
-    text-align: left;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }

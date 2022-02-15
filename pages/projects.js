@@ -27,7 +27,9 @@ function ProjectPage() {
   return (
     <div className={Styles.Wrapper}>
       <h1>My Projects</h1>
-      <ProjectList projects={Projects} />
+      <div className={Styles.Projects}>
+        <ProjectList projects={Projects} />
+      </div>
     </div>
   );
 }
