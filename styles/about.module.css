@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1200px) {
   .Wrapper {
-    padding: 30px 2.5vw;
+    padding: 30px 4vw;
   }
   .Wrapper > h1:first-of-type {
     text-align: left;
