@@ -1,8 +1,8 @@
 .Header-Container {
-  max-width: 1600px;
+  max-width: 95vw;
   margin: 0 auto;
   overflow: none !important;
-  padding: 0 40px;
+  padding: 0 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,8 +14,15 @@
   color: #fff;
   height: 65px;
 }
-.navbar img {
-  height: 65px;
+.Logo{
+  display: flex;
+  flex-direction: row;
+ 
+  align-items: center;
+}
+.Logo img {
+  height: 55px;
+  width: 80px;
 }
 .navbar div {
   overflow-y: hidden !important;
@@ -116,5 +123,8 @@
 @media screen and (max-width: 500px) {
   .Header-Container h1 {
     font-size: 1.8rem;
+  }
+  .Logo h3 {
+    display: none;
   }
 }
