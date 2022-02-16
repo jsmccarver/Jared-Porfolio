@@ -21,7 +21,7 @@
   align-items: center;
 }
 .Logo img {
-  height: 55px;
+  height: 60px;
   width: 80px;
 }
 .navbar div {
@@ -102,7 +102,8 @@
 
 @media screen and (max-width: 1000px) {
   .Header-Container {
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 0px;
+    max-width: 100vw;
   }
   .Header-Container h1 {
     font-size: 2.25rem;
