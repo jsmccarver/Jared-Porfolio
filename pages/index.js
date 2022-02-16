@@ -6,11 +6,11 @@ import ProjectList from "../Components/ProjectsList";
 export default function Home() {
   const Projects = [
     {
-      Name: "Freeman Pet Shop",
-      Link: "https://freemanpets.com",
-      img: "./Allyson_site_thumb.png",
+      Name: "McCarver-Freeman Wedding",
+      Link: "https://mccarver-freeman-wedding.herokuapp.com/",
+      img: "./wedding.png",
       description:
-        "Simple CRUD forum built in Django to share posts about your pets. -- Under Construction",
+        "This is a wedding RSVP website that I create for my Fiance and my wedding.",
     },
     {
       Name: "Jared McCarver",

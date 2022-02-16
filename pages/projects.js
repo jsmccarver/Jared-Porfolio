@@ -23,6 +23,13 @@ function ProjectPage() {
       description:
         "Allyson Freeman GIS Porfolio built in Next that integrates with ESRI API -- Under Construction",
     },
+    {
+      Name: "McCarver-Freeman Wedding",
+      Link: "https://mccarver-freeman-wedding.herokuapp.com/",
+      img: "./wedding.png",
+      description:
+        "This is a wedding RSVP website that I create for my Fiance and my wedding.",
+    },
   ];
   return (
     <div className={Styles.Wrapper}>

@@ -14,9 +14,6 @@
   color: #fff;
   height: 65px;
 }
-.navbar img {
-  height: 65px;
-}
 .navbar div {
   overflow-y: hidden !important;
 }
@@ -51,11 +48,17 @@
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
-
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 65px;
+}
+.logo h3 {
+  font-size: 2rem;
+}
 .burgericon {
   display: none;
 }
-
 .Mobile-Menu-Container {
   height: 100vh;
   width: 100vw;
