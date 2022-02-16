@@ -12,8 +12,8 @@ function Header() {
       >
         <Link href="./">
           <a>
-            <div className={Styles.logo}>
-              <img src="/logo.png" /> <h3>Jared McCarver</h3>
+            <div className={Styles.Logo}>
+              <img src="/logo.svg" /> <h3>Jared McCarver</h3>
             </div>
           </a>
         </Link>
