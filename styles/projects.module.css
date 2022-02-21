@@ -10,7 +10,8 @@
   font-weight: 700;
 }
 .Projects {
-  padding: 2rem 0px;
+  padding-top: 2rem;
+  padding-bottom: 80px;
 }
 @media screen and (max-width: 1200px) {
   .Wrapper {
