@@ -28,7 +28,7 @@ function ProjectPage() {
       Link: "https://mccarver-freeman-wedding.herokuapp.com/",
       img: "./wedding.png",
       description:
-        "This is a wedding RSVP website that I create for my Fiance and my wedding.",
+        "This is a wedding RSVP website that I create for my Fiance and my wedding.  -- Under Construction",
     },
   ];
   return (
