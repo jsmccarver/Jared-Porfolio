@@ -14,6 +14,7 @@
 
 .Project {
   display: flex;
+  width: 450px;
   flex-direction: column;
   border: 1px black solid;
   background-color: #182025;
@@ -34,11 +35,12 @@
   padding: 1rem;
   max-width: 400px;
 }
-.Project img {
-  width: 450px;
-}
+
 @media screen and (max-width: 750px) {
-  .Project img {
+  .Project {
     width: 90vw;
+  }
+  .Project img {
+    object-fit: cover;
   }
 }
