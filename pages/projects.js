@@ -46,7 +46,7 @@ const ProjectList = () => {
       </h3>
       {Projects.map((Project) => (
           <section
-            id={Name}
+            key={Project.Name}
             className={Styles.Project}
             style={{ backgroundColor: Project.Color }}
           >
