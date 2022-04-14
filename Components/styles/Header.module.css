@@ -34,6 +34,9 @@
   padding: 10px;
   margin: 0 5px;
 }
+.navbar h3{
+  font-weight: 400;
+}
 .Header-Container nav a {
   color: #0090b4;
   font-weight: 600;

@@ -8,7 +8,7 @@
   background-color: white;
 }
 .Project {
-  padding: 25px 15vw !important;
+  padding: 25px 17.5vw !important;
   padding-top: 3.5rem !important;
   padding-bottom: 3.5rem !important;
 }
@@ -34,10 +34,10 @@
 }
 
 .projects section:nth-of-type(odd) .ProjectWrapper {
-  grid-template-columns: 2.5fr 2fr;
+  grid-template-columns: 3fr 2fr;
 }
 .projects section:nth-of-type(even) .ProjectWrapper {
-  grid-template-columns: 2fr 2.5fr;
+  grid-template-columns: 2fr 3fr;
 }
 .projects section:nth-of-type(odd) .example-images {
   grid-column-start: 1;
@@ -52,8 +52,9 @@
 .Programs li {
   margin: 5px 10px 5px 0px;
   padding: 0px 6px;
-  border: 1px black solid;
+  border: 2px black solid;
   border-radius: 7px;
+  font-weight: 500;
 }
 .projects h1 {
   grid-column: span 2;
@@ -81,11 +82,18 @@
   align-items: center;
   justify-content: center;
 }
-
+.links{
+  display: flex;
+  flex-direction: row;
+}
+.links a{
+  margin-right: .5rem !important; 
+}
 .example-images img {
   margin: 0px 0px;
   padding: 0px;
   border: rgb(121, 121, 121) 1px solid;
+  display:  block
 }
 
 @media screen and (max-width: 1650px) {
