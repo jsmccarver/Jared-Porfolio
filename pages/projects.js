@@ -4,22 +4,39 @@ const ProjectList = () => {
   const Projects = [
     {
       Name: "Freeman Pet Shop",
-      Link: "https://freemanpetshop.com",
-      Programs: [{ name: "Django" }, { name: "HTML5" }, { name: "Postgres" }, {name: "AWS S3"}],
+      Link: "https://freemanpets.com",
+      Programs: [
+        { name: "Django" },
+        { name: "HTML5" },
+        { name: "Postgres" },
+        { name: "AWS S3" },
+      ],
       Color: "#0f182b",
       TextColor: "honeydew",
       img: "./freeman-pets.png",
-      Description: "Forum created in Django using AWS S3 buckets to share your pets and dispaly foster pets available for adoption. The database is PostgreSQL and the app is hosted on Heroku."
+      Description:
+        "Forum created in Django using AWS S3 buckets to share your pets and dispaly foster pets available for adoption. The database is PostgreSQL and the app is hosted on Heroku.",
     },
     {
       Name: "Reddit Clone",
       Link: "https://reddit-clone-rho-liart.vercel.app/",
-      Programs: [{ name: "React" }, { name: "Next JS" }, {name: "PostgreSQL"}, {name: "Redis"}, {name: "TypeORM"}, {name: "GraphQL"}, {name: "Docker"}, {name: "Node"}, {name: "Express"}],
+      Programs: [
+        { name: "React" },
+        { name: "Next JS" },
+        { name: "PostgreSQL" },
+        { name: "Redis" },
+        { name: "TypeORM" },
+        { name: "GraphQL" },
+        { name: "Docker" },
+        { name: "Node" },
+        { name: "Express" },
+      ],
       Color: "#edf2fb",
       TextColor: "black",
       img: "./Jared_site.png",
-      Description: "Reddit Clone built in Next js based of tutorial by Ben Awad."
-        },
+      Description:
+        "Reddit Clone built in Next js based of tutorial by Ben Awad.",
+    },
     {
       Name: "Jared McCarver",
       Link: "https://jmccarver.com/",
@@ -28,7 +45,7 @@ const ProjectList = () => {
       TextColor: "black",
       img: "./Jared_site.png",
       Description:
-        "This is my personal webpage. I created it using React and Next JS to showcase my skills in the design and development of Full-Stack and Front-End apps."
+        "This is my personal webpage. I created it using React and Next JS to showcase my skills in the design and development of Full-Stack and Front-End apps.",
     },
     {
       Name: "Allyson Freeman",

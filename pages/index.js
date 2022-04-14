@@ -6,25 +6,49 @@ import ProjectList from "../Components/ProjectsList";
 export default function Home() {
   const Projects = [
     {
-      Name: "McCarver-Freeman Wedding",
-      Link: "https://mccarver-freeman-wedding.herokuapp.com/",
-      img: "./wedding.png",
-      description:
-        "This is a wedding RSVP website that I create for my Fiance and my wedding.  -- Under Construction",
+      Name: "Freeman Pet Shop",
+      Link: "https://freemanpets.com",
+      Programs: [
+        { name: "Django" },
+        { name: "HTML5" },
+        { name: "Postgres" },
+        { name: "AWS S3" },
+      ],
+      Color: "#0f182b",
+      TextColor: "honeydew",
+      img: "./freeman-pets.png",
+      Description:
+        "Forum created in Django using AWS S3 buckets to share your pets and dispaly foster pets available for adoption. The database is PostgreSQL and the app is hosted on Heroku.",
+    },
+    {
+      Name: "Reddit Clone",
+      Link: "https://reddit-clone-rho-liart.vercel.app/",
+      Programs: [
+        { name: "React" },
+        { name: "Next JS" },
+        { name: "PostgreSQL" },
+        { name: "Redis" },
+        { name: "TypeORM" },
+        { name: "GraphQL" },
+        { name: "Docker" },
+        { name: "Node" },
+        { name: "Express" },
+      ],
+      Color: "#edf2fb",
+      TextColor: "black",
+      img: "./Jared_site.png",
+      Description:
+        "Reddit Clone built in Next js based of tutorial by Ben Awad.",
     },
     {
       Name: "Jared McCarver",
       Link: "https://jmccarver.com/",
-      img: "./jared_site_thumb.png",
-      description:
-        "Personal porfolio built using React and Next JS. Icon and landing image made by Allyson Freeman",
-    },
-    {
-      Name: "Allyson Freeman",
-      Link: "https://allysonfreeman.com/",
-      img: "./Allyson_site_thumb.png",
-      description:
-        "Allyson Freeman GIS Porfolio built in Next that integrates with ESRI API -- Under Construction",
+      Programs: [{ name: "React" }, { name: "Next JS" }],
+      Color: "#eddcd2",
+      TextColor: "black",
+      img: "./Jared_site.png",
+      Description:
+        "This is my personal webpage. I created it using React and Next JS to showcase my skills in the design and development of Full-Stack and Front-End apps.",
     },
   ];
   return (
