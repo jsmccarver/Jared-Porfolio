@@ -14,7 +14,7 @@ const ProjectList = () => {
     {
       Name: "Reddit Clone",
       Link: "https://reddit-clone-rho-liart.vercel.app/",
-      Programs: [{ name: "React" }, { name: "Next JS" }, {name: "PostgreSQL"}, {name: "Redis"}, {name: "TypeORM"}, {name: "GraphQL"}, {name: "Docker"}],
+      Programs: [{ name: "React" }, { name: "Next JS" }, {name: "PostgreSQL"}, {name: "Redis"}, {name: "TypeORM"}, {name: "GraphQL"}, {name: "Docker"}, {name: "Node"}, {name: "Express"}],
       Color: "#edf2fb",
       TextColor: "black",
       img: "./Jared_site.png",
