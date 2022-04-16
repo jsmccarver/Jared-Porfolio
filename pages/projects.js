@@ -6,6 +6,7 @@ const ProjectList = () => {
     {
       Name: "Reddit Clone",
       Link: "https://reddit-clone-rho-liart.vercel.app/",
+      Link2:"https://github.com/jsmccarver/Reddit-Clone",
       Programs: [
         { name: "React" },
         { name: "Next JS" },
@@ -25,6 +26,7 @@ const ProjectList = () => {
     },    {
       Name: "Freeman Pet Shop",
       Link: "https://freemanpets.com",
+      Link2:"https://github.com/jsmccarver/petstore",
       Programs: [
         { name: "Django" },
         { name: "HTML5" },
@@ -40,6 +42,7 @@ const ProjectList = () => {
     {
       Name: "Jared McCarver",
       Link: "https://jmccarver.com/",
+      Link2:"https://github.com/jsmccarver/Jared-Porfolio",
       Programs: [{ name: "React" }, { name: "Next JS" }],
       Color: "#eddcd2",
       TextColor: "black",
@@ -50,6 +53,7 @@ const ProjectList = () => {
     {
       Name: "Allyson Freeman",
       Link: "https://allysonfreeman.com/",
+      Link2:"https://github.com/jsmccarver/AllysonsWebsite",
       Programs: [{ name: "React" }, { name: "Next JS" }],
       Color: "white",
       TextColor: "black",
@@ -94,7 +98,7 @@ const ProjectList = () => {
                 <a href={Project.Link} style={{ color: Project.TextColor }}>
                   Live Link
                 </a>
-                <a href={Project.Link} style={{ color: Project.TextColor }}>
+                <a href={Project.Link2} style={{ color: Project.TextColor }}>
                   GitHub
                 </a>
               </div>
