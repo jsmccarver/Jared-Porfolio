@@ -2,21 +2,7 @@ import Styles from "../styles/ProjectList.module.css";
 
 const ProjectList = () => {
   const Projects = [
-    {
-      Name: "Freeman Pet Shop",
-      Link: "https://freemanpets.com",
-      Programs: [
-        { name: "Django" },
-        { name: "HTML5" },
-        { name: "Postgres" },
-        { name: "AWS S3" },
-      ],
-      Color: "#0f182b",
-      TextColor: "honeydew",
-      img: "./freeman-pets.png",
-      Description:
-        "Forum created in Django using AWS S3 buckets to share your pets and dispaly foster pets available for adoption. The database is PostgreSQL and the app is hosted on Heroku.",
-    },
+
     {
       Name: "Reddit Clone",
       Link: "https://reddit-clone-rho-liart.vercel.app/",
@@ -33,9 +19,23 @@ const ProjectList = () => {
       ],
       Color: "#edf2fb",
       TextColor: "black",
-      img: "./Jared_site.png",
+      img: "./Reddit.png",
       Description:
-        "Reddit Clone built in Next js based of tutorial by Ben Awad.",
+        "Reddit Clone built in Next js based of tutorial by Ben Awad. Front end is hosted on Vercel. Backend is hosted on a digital ocean droplet that utilizes Dokku and Docker Containers.",
+    },    {
+      Name: "Freeman Pet Shop",
+      Link: "https://freemanpets.com",
+      Programs: [
+        { name: "Django" },
+        { name: "HTML5" },
+        { name: "Postgres" },
+        { name: "AWS S3" },
+      ],
+      Color: "#0f182b",
+      TextColor: "honeydew",
+      img: "./freeman-pets.png",
+      Description:
+        "Forum created in Django using AWS S3 buckets to share your pets and display foster pets available for adoption. The database is PostgreSQL and the app is hosted on Heroku.",
     },
     {
       Name: "Jared McCarver",

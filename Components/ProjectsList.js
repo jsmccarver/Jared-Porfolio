@@ -6,11 +6,13 @@ function ProjectList({ projects }) {
       {projects.map((Project) => (
         <div key={Project.Name} className={Styles.Project}>
           <img src={Project.img}></img>
-          <div className={Styles["Project-text"]}>
+          <div className={Styles["Project-text"]}
+          >
             <a href={Project.Link}>
               <h3>{Project.Name}</h3>
             </a>
-            <p>{Project.description}</p>
+            <p
+          >{Project.Description}</p>
           </div>
         </div>
       ))}

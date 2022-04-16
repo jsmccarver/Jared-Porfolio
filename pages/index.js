@@ -18,7 +18,7 @@ export default function Home() {
       TextColor: "honeydew",
       img: "./freeman-pets.png",
       Description:
-        "Forum created in Django using AWS S3 buckets to share your pets and dispaly foster pets available for adoption. The database is PostgreSQL and the app is hosted on Heroku.",
+        "Forum created in Django using AWS S3 buckets to share your pets and display foster pets available for adoption. The database is PostgreSQL and the app is hosted on Heroku.",
     },
     {
       Name: "Reddit Clone",
@@ -36,9 +36,9 @@ export default function Home() {
       ],
       Color: "#edf2fb",
       TextColor: "black",
-      img: "./Jared_site.png",
+      img: "./Reddit.png",
       Description:
-        "Reddit Clone built in Next js based of tutorial by Ben Awad.",
+        "Reddit Clone built in Next js based of tutorial by Ben Awad. Front end is hosted on Vercel. Backend is hosted on a digital ocean droplet that utilizes Dokku and Docker Containers.",
     },
     {
       Name: "Jared McCarver",
@@ -97,7 +97,7 @@ export default function Home() {
             <button>All Projects</button>
           </div>
           <div id="contact" className={`${Styles.chat} ${Styles.BriefIntro}`}>
-            <h1>Lets Chat</h1>
+            <h1>Let's Chat</h1>
             <p>
               Do not hesitate to contact me about any inquries or concerns you
               may have. I am always ready to talk!
