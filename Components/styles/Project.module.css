@@ -44,4 +44,9 @@
   .Project img {
     object-fit: cover;
   }
+  .Project-text {
+    padding: 1rem;
+    max-width: 400px;
+    height: auto;
+  }
 }
