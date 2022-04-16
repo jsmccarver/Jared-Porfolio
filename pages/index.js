@@ -97,7 +97,7 @@ export default function Home() {
             <button>All Projects</button>
           </div>
           <div id="contact" className={`${Styles.chat} ${Styles.BriefIntro}`}>
-            <h1>Let's Chat</h1>
+            <h1>Let&apos;s Chat</h1>
             <p>
               Do not hesitate to contact me about any inquries or concerns you
               may have. I am always ready to talk!
