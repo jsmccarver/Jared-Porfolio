@@ -2,11 +2,10 @@ import Styles from "../styles/ProjectList.module.css";
 
 const ProjectList = () => {
   const Projects = [
-
     {
       Name: "Reddit Clone",
-      Link: "https://reddit-clone-rho-liart.vercel.app/",
-      Link2:"https://github.com/jsmccarver/Reddit-Clone",
+      Link: "https://www.jmccarver-reddit-clone.com/",
+      Link2: "https://github.com/jsmccarver/Reddit-Clone",
       Programs: [
         { name: "React" },
         { name: "Next JS" },
@@ -23,10 +22,11 @@ const ProjectList = () => {
       img: "./Reddit.png",
       Description:
         "Reddit Clone built in Next js based of tutorial by Ben Awad. Front end is hosted on Vercel. Backend is hosted on a digital ocean droplet that utilizes Dokku and Docker Containers.",
-    },    {
+    },
+    {
       Name: "Freeman Pet Shop",
       Link: "https://freemanpets.com",
-      Link2:"https://github.com/jsmccarver/petstore",
+      Link2: "https://github.com/jsmccarver/petstore",
       Programs: [
         { name: "Django" },
         { name: "HTML5" },
@@ -42,7 +42,7 @@ const ProjectList = () => {
     {
       Name: "Jared McCarver",
       Link: "https://jmccarver.com/",
-      Link2:"https://github.com/jsmccarver/Jared-Porfolio",
+      Link2: "https://github.com/jsmccarver/Jared-Porfolio",
       Programs: [{ name: "React" }, { name: "Next JS" }],
       Color: "#eddcd2",
       TextColor: "black",
@@ -53,7 +53,7 @@ const ProjectList = () => {
     {
       Name: "Allyson Freeman",
       Link: "https://allysonfreeman.com/",
-      Link2:"https://github.com/jsmccarver/AllysonsWebsite",
+      Link2: "https://github.com/jsmccarver/AllysonsWebsite",
       Programs: [{ name: "React" }, { name: "Next JS" }],
       Color: "white",
       TextColor: "black",

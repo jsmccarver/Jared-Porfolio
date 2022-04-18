@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       Name: "Reddit Clone",
-      Link: "https://reddit-clone-rho-liart.vercel.app/",
+      Link: "https://www.jmccarver-reddit-clone.com/",
       Programs: [
         { name: "React" },
         { name: "Next JS" },
