@@ -18,14 +18,13 @@
   font-weight: 700;
   font-size: 4em;
 }
-.projects h3:first-of-type{
+.projects h3:first-of-type {
   text-align: center;
   color: black;
   max-width: 600px;
   padding-bottom: 80px;
   font-size: 1.75em;
   font-weight: 600;
-
 }
 .ProjectWrapper {
   grid-template-columns: 1fr 2fr;
@@ -47,7 +46,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
 }
 .Programs li {
   margin: 5px 10px 5px 0px;
@@ -82,18 +80,38 @@
   align-items: center;
   justify-content: center;
 }
-.links{
+.links {
   display: flex;
   flex-direction: row;
 }
-.links a{
-  margin-right: .5rem !important; 
+.links a {
+  margin-right: 0.5rem !important;
+  color: #0090b4;
+  font-weight: 600;
+  display: block;
+  position: relative;
+  padding: 0.1em 0;
+  overflow: hidden;
 }
+.links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #432b8c;
+  transition: background-color 400ms;
+}
+.links a:hover::after {
+  background-color: rgb(255, 252, 73);
+}
+
 .example-images img {
   margin: 0px 0px;
   padding: 0px;
   border: rgb(121, 121, 121) 1px solid;
-  display:  block
+  display: block;
 }
 
 @media screen and (max-width: 1650px) {
