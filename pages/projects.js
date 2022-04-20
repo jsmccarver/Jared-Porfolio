@@ -59,7 +59,7 @@ const ProjectList = () => {
       TextColor: "black",
       img: "./Allyson_site.jpg",
       Description:
-        "I was the developer for Allyson's personal website. She is agraduate of NC State with a Bachelors in Geology. She is currentl ypursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. ",
+        "I was the developer for Allyson's personal website. She is a graduate of NC State with a Bachelors in Geology. She is currently pursuing a certificate in Geospatial Information Systems from NCState and does research with The Machado Lab. ",
     },
   ];
   return (
